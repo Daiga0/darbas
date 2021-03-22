@@ -10,7 +10,7 @@ int main() {
     cout << "New ideas and projects sometimes distract me from previous ones." << endl;mv 
     cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
 
-    cin << x << endl;
+    cin >> x;
 
     if (0 < x & x < 6) {
 
@@ -21,7 +21,7 @@ int main() {
     cout << "Setbacks don't discourage me. I don't give up easily. " << endl;
     cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
 
-    cin << x << endl;
+    cin >> x;
 
     if (0 < x & x < 6) {
 
@@ -32,7 +32,7 @@ int main() {
     cout << "I often set a goal but later choose to pursue a different one." << endl;
     cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
 
-    cin << x << endl;
+    cin >> x;
 
     if (0 < x & x < 6) {
 
@@ -43,7 +43,7 @@ int main() {
     cout << "I am a hard worker." << endl;
     cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
 
-    cin << x << endl;
+    cin >> x;
 
     if (0 < x & x < 6) {
 
@@ -54,7 +54,7 @@ int main() {
     cout << "I have a difficulty maintaining my focus on projects that take more than a few months to complete." << endl;
     cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
 
-    cin << x << endl;
+    cin >> x;
 
     if (0 < x & x < 6) {
 
@@ -65,7 +65,7 @@ int main() {
     cout << "I finish whatever I begin." << endl;
     cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
 
-    cin << x << endl;
+    cin >> x;
 
     if (0 < x & x < 6) {
 
@@ -76,7 +76,7 @@ int main() {
     cout << "My interests change from year to year." << endl;
     cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
 
-    cin << x << endl;
+    cin >> x;
 
     if (0 < x & x < 6) {
 
@@ -87,7 +87,7 @@ int main() {
     cout << "I'm diligent. I never give up." << endl;
     cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
 
-    cin << x << endl;
+    cin >> x;
 
     if (0 < x & x < 6) {
 
@@ -98,7 +98,7 @@ int main() {
     cout << "I've been obsessed with acertain idea or project for a short time but later lost interest." << endl;
     cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
 
-    cin << x << endl;
+    cin << x;
 
     if (0 < x & x < 6) {
 
@@ -109,7 +109,7 @@ int main() {
     cout << "I have overcome setbacks to conquer an important challenge." << endl;
     cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
 
-    cin << x << endl;
+    cin << x;
 
     if (0 < x & x < 6) {
 
@@ -171,7 +171,7 @@ int main() {
         cout << "This reveals that you're grittier that 95 % of the population" << endl;
     }
 
-    else (grit == 4.9) {
+    else if (grit == 4.9) {
 
         cout << "This reveals that you're grittier that 99 % of the population" << endl;
     }
