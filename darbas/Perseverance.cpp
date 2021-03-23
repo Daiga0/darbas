@@ -7,7 +7,7 @@ int main() {
     double grit = 0.0;
 
     total++;
-    cout << "New ideas and projects sometimes distract me from previous ones." << endl;mv 
+    cout << "New ideas and projects sometimes distract me from previous ones." << endl;
     cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
 
     cin >> x;
@@ -123,57 +123,57 @@ int main() {
 
     if (grit == 2.5) {
 
-        cout << "This reveals that you're grittier that 10 % of the population" << endl;
+        cout << "This reveals that you're grittier than 10 % of the population" << endl;
     }
 
     else if (grit == 3.0) {
 
-        cout << "This reveals that you're grittier that 20 % of the population" << endl;
+        cout << "This reveals that you're grittier than 20 % of the population" << endl;
     }
 
     else if (grit == 3.3) {
 
-        cout << "This reveals that you're grittier that 30 % of the population" << endl;
+        cout << "This reveals that you're grittier than 30 % of the population" << endl;
     }
 
     else if (grit == 3.5) {
 
-        cout << "This reveals that you're grittier that 40 % of the population" << endl;
+        cout << "This reveals that you're grittier than 40 % of the population" << endl;
     }
 
     else if (grit == 3.8) {
 
-        cout << "This reveals that you're grittier that 50 % of the population" << endl;
+        cout << "This reveals that you're grittier than 50 % of the population" << endl;
     }
 
     else if (grit == 3.9) {
 
-        cout << "This reveals that you're grittier that 60 % of the population" << endl;
+        cout << "This reveals that you're grittier than 60 % of the population" << endl;
     }
 
     else if (grit == 4.1) {
 
-        cout << "This reveals that you're grittier that 70 % of the population" << endl;
+        cout << "This reveals that you're grittier than 70 % of the population" << endl;
     }
 
     else if (grit == 4.3) {
 
-        cout << "This reveals that you're grittier that 80 % of the population" << endl;
+        cout << "This reveals that you're grittier than 80 % of the population" << endl;
     }
 
     else if (grit == 4.5) {
 
-        cout << "This reveals that you're grittier that 90 % of the population" << endl;
+        cout << "This reveals that you're grittier than 90 % of the population" << endl;
     }
 
     else if (grit == 4.7) {
 
-        cout << "This reveals that you're grittier that 95 % of the population" << endl;
+        cout << "This reveals that you're grittier than 95 % of the population" << endl;
     }
 
     else if (grit == 4.9) {
 
-        cout << "This reveals that you're grittier that 99 % of the population" << endl;
+        cout << "This reveals that you're grittier than 99 % of the population" << endl;
     }
 
     return 0;
