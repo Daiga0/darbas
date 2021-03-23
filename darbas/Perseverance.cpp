@@ -121,57 +121,57 @@ int main() {
     cout << "Your Grit score is: " << grit << endl;
 
 
-    if (grit == 2.5) {
+    if (grit >=2.5 && grit < 3.0) {
 
         cout << "This reveals that you're grittier than 10 % of the population" << endl;
     }
 
-    else if (grit == 3.0) {
+    else if (grit >= 3.0 && grit < 3.3) {
 
         cout << "This reveals that you're grittier than 20 % of the population" << endl;
     }
 
-    else if (grit == 3.3) {
+    else if (grit >= 3.3 && grit < 3.5) {
 
         cout << "This reveals that you're grittier than 30 % of the population" << endl;
     }
 
-    else if (grit == 3.5) {
+    else if (grit >= 3.5 && grit < 3.8) {
 
         cout << "This reveals that you're grittier than 40 % of the population" << endl;
     }
 
-    else if (grit == 3.8) {
+    else if (grit >= 3.8 && git < 3.9) {
 
         cout << "This reveals that you're grittier than 50 % of the population" << endl;
     }
 
-    else if (grit == 3.9) {
+    else if (grit >= 3.9 && grit < 4.1) {
 
         cout << "This reveals that you're grittier than 60 % of the population" << endl;
     }
 
-    else if (grit == 4.1) {
+    else if (grit >= 4.1 && grit < 4.3) {
 
         cout << "This reveals that you're grittier than 70 % of the population" << endl;
     }
 
-    else if (grit == 4.3) {
+    else if (grit >= 4.3 && grit < 4.5) {
 
         cout << "This reveals that you're grittier than 80 % of the population" << endl;
     }
 
-    else if (grit == 4.5) {
+    else if (grit >= 4.5 && grit < 4.7) {
 
         cout << "This reveals that you're grittier than 90 % of the population" << endl;
     }
 
-    else if (grit == 4.7) {
+    else if (grit >= 4.7 && grit < 4.9) {
 
         cout << "This reveals that you're grittier than 95 % of the population" << endl;
     }
 
-    else if (grit == 4.9) {
+    else if (grit >= 4.9) {
 
         cout << "This reveals that you're grittier than 99 % of the population" << endl;
     }
