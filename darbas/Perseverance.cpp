@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 
-    int x = 0, sum = 0, total = 0;
+    double x = 0.0, sum = 0, total = 0;
     double grit = 0.0;
 
     total++;
@@ -12,18 +12,18 @@ int main() {
 
     cin >> x;
 
-    if (0 < x & x < 6) {
+    if (0 < x && x < 6) {
 
      sum += x;
     }
 
     total++;
     cout << "Setbacks don't discourage me. I don't give up easily. " << endl;
-    cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
+    cout << "Please enter a number: not at all - 1; not much - 2; somewhat - 3; mostly - 4; very much - 5: " << endl;
 
     cin >> x;
 
-    if (0 < x & x < 6) {
+    if (0 < x && x < 6) {
 
      sum += x;
     }
@@ -34,18 +34,18 @@ int main() {
 
     cin >> x;
 
-    if (0 < x & x < 6) {
+    if (0 < x && x < 6) {
 
      sum += x;
     }
 
     total++;
     cout << "I am a hard worker." << endl;
-    cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
+    cout << "Please enter a number: not at all - 1; not much - 2; somewhat - 3; mostly - 4; very much - 5: " << endl;
 
     cin >> x;
 
-    if (0 < x & x < 6) {
+    if (0 < x && x < 6) {
 
      sum += x;
     }
@@ -56,18 +56,18 @@ int main() {
 
     cin >> x;
 
-    if (0 < x & x < 6) {
+    if (0 < x && x < 6) {
 
      sum += x;
     }
 
     total++;
     cout << "I finish whatever I begin." << endl;
-    cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
+    cout << "Please enter a number: not at all - 1; not much - 2; somewhat - 3; mostly - 4; very much - 5: " << endl;
 
     cin >> x;
 
-    if (0 < x & x < 6) {
+    if (0 < x && x < 6) {
 
      sum += x;
     }
@@ -78,18 +78,18 @@ int main() {
 
     cin >> x;
 
-    if (0 < x & x < 6) {
+    if (0 < x && x < 6) {
 
      sum += x;
     }
 
     total++;
     cout << "I'm diligent. I never give up." << endl;
-    cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
+    cout << "Please enter a number: not at all - 1; not much - 2; somewhat - 3; mostly - 4; very much - 5: " << endl;
 
     cin >> x;
 
-    if (0 < x & x < 6) {
+    if (0 < x && x < 6) {
 
      sum += x;
     }
@@ -100,18 +100,18 @@ int main() {
 
     cin << x;
 
-    if (0 < x & x < 6) {
+    if (0 < x && x < 6) {
 
      sum += x;
     }
 
     total++;
     cout << "I have overcome setbacks to conquer an important challenge." << endl;
-    cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
+    cout << "Please enter a number: not at all - 1; not much - 2; somewhat - 3; mostly - 4; very much - 5: " << endl;
 
     cin << x;
 
-    if (0 < x & x < 6) {
+    if (0 < x && x < 6) {
 
      sum += x;
     }
