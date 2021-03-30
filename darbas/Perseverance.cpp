@@ -98,7 +98,7 @@ int main() {
     cout << "I've been obsessed with acertain idea or project for a short time but later lost interest." << endl;
     cout << "Please enter a number: not at all - 5; not much - 4; somewhat - 3; mostly - 2; very much - 1: " << endl;
 
-    cin << x;
+    cin >> x;
 
     if (0 < x && x < 6) {
 
@@ -109,7 +109,7 @@ int main() {
     cout << "I have overcome setbacks to conquer an important challenge." << endl;
     cout << "Please enter a number: not at all - 1; not much - 2; somewhat - 3; mostly - 4; very much - 5: " << endl;
 
-    cin << x;
+    cin >> x;
 
     if (0 < x && x < 6) {
 
