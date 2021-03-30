@@ -141,7 +141,7 @@ int main() {
         cout << "This reveals that you're grittier than 40 % of the population" << endl;
     }
 
-    else if (grit >= 3.8 && git < 3.9) {
+    else if (grit >= 3.8 && grit < 3.9) {
 
         cout << "This reveals that you're grittier than 50 % of the population" << endl;
     }
